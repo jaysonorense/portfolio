@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="short icon" href="images/favicon.png">
+    <script src="js/script.js" defer></script>
+    <title>Contact — Jayson Orense</title>
+</head>
+<style media="screen">
+
+    ::-moz-selection{
+        background-color: black;
+        color: white;
+    }
+
+    ::selection{
+        background-color: black;
+        color: white;
+    }
+
+</style>
+<body>
+    <nav class="navbar">
+        <div class="brand-title"> 
+            <a href="index.html">Jayson Orense</a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="https://jaysonreyorense.darkroom.tech/">Prints</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <div class="section">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>About</h1>
+                    </div>
+                    <div class="content">
+                        <p>Jayson Orense is a contemporary street photographer based in the Philippines. His photography is
+                        driven by a fascination with the moments that surround us. His work mostly consists of moments of everyday life that are hidden in plain sight.
+                        </p>
+                        <p> His goal as a photographer is to document and
+                        bring out the beauty in ordinary scenes. In July of 2021, Jayson launched this website, which he
+                        built from scratch, where he began exhibiting his work and growth in photography.
+                        </p>
+                        <h1>Contact</h1>
+                        <p>For inquiries, prints, or commissions, Please shoot me an email.</p>
+                        <p>email // <a href="mailto:jayorensephotography@gmail.com">jayorensephotography@gmail.com</a></p>
+                    </div>
+                    <div class="social">
+                        <ul class="icon">
+                             <li><a href="https://www.instagram.com/jaysonorense/" class="fa fa-instagram"></a></li>
+                             <li><a href="https://www.behance.net/jayorense" class="fa fa-behance"></a></li>
+                        </ul>
+                        <h4>&copy; <span id="current-year"></span> Jayson Orense, All Rights Reserved.</h4>
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="images/1234.jpg" alt="" use ondragstart="return false" for dragging and onselectstart="return false" for selecting>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript">
+        
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById('current-year').innerHTML = year;
+
+    </script>
+</body>
+</html>
