@@ -73,7 +73,7 @@ body{
  .copyright{
      font-family: 'Open Sans', sans-serif;
 }
-@media (max-width: 1533px){
+@media (max-width: 1536px){
     .toggle-button{
         display: flex;
         top: 2rem;
@@ -160,7 +160,7 @@ body{
     color: black;
     text-decoration: underline;
 }
-@media (max-width: 1533px){
+@media (max-width: 1536px){
     .container{
         width: 80%;
         display: block;
