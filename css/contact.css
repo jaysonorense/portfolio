@@ -22,6 +22,8 @@ body{
      margin: .5rem;
      text-transform: uppercase;
      font-family: 'Source Sans Pro', sans-serif;
+     font-style: normal;
+     font-weight: 400;
  }
  .brand-title a{
     text-decoration: none;
@@ -74,6 +76,8 @@ body{
 
  .copyright{
      font-family: 'Open Sans', sans-serif;
+     font-weight:300; 
+     font-style:italic;
 }
 @media (max-width: 1536px){
     .toggle-button{
@@ -141,16 +145,22 @@ body{
 .content-section .title{
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 .content-section .content p{
     margin-top: 15px;
     font-family: 'Open Sans', sans-serif;
+    font-weight:300; 
+    font-style:italic;
     color: #666;
 }
 .content-section .content h1{
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 .content-section .content a{
@@ -259,6 +269,8 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
+    font-weight:300; 
+    font-style:italic;
     color: #878787;
     font-size: 13px;
 }
