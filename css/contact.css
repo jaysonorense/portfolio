@@ -142,7 +142,7 @@ body{
     width: 100%;
     height: auto;
 }
-.content-section .title{
+.section .container .content-section .title h1{
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
