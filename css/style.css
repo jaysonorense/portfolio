@@ -22,6 +22,8 @@ body{
     margin: .5rem;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 .brand-title a{
     text-decoration: none;
@@ -42,6 +44,8 @@ body{
     display: block;
     text-transform: lowercase;
     font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
     transition: 0.2s;
 
 }
@@ -77,6 +81,8 @@ footer{
 }
 .copyright{
     font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
 }
 @media (max-width: 1533px){
     .toggle-button{
