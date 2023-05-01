@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="short icon" href="images/favicon.png" />
+    <script src="js/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/7509a3764f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Contact — Jayson Orense</title>
+  </head>
+  <style media="screen">
+    ::-moz-selection {
+      background-color: black;
+      color: white;
+    }
+
+    ::selection {
+      background-color: black;
+      color: white;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">
+        <a href="index.html">Jayson Orense</a>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Photo</a></li>
+          <li><a href="https://jaysonreyorense.darkroom.tech/">Prints</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="section">
+      <div class="container">
+        <div
+          class="content-section"
+          data-aos="fade-up"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
+          <div class="title">
+            <h1>About Me</h1>
+          </div>
+          <div class="content">
+            <p>
+              My name is Jayson Orense, a photographer from the Philippines who
+              is interested in capturing the fleeting moments of everyday life.
+              My photos aim to capture the beauty and emotion in the seemingly
+              mundane moments, and to give viewers a glimpse into the lives of
+              others through my lens.
+            </p>
+            <h1>Contact</h1>
+            <p>
+              I am available for commercial and editorial commissions. For
+              inquiries, get in touch for further information.
+            </p>
+            <p>
+              email //
+              <a href="mailto:jayorensephotography@gmail.com"
+                >jayorensephotography@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="social">
+            <ul class="icon">
+              <li>
+                <a
+                  href="https://www.instagram.com/jaysonorense/"
+                  class="social-media"
+                  ><i class="fa-brands fa-instagram fa-bounce"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.behance.net/jayorense" class="social-media"
+                  ><i class="fa-brands fa-square-behance fa-bounce"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://kit.co/jaysonorense/photography-gear"
+                  class="social-media"
+                  ><i class="fa-sharp fa-solid fa-camera fa-bounce"></i
+                ></a>
+              </li>
+            </ul>
+            <h4>
+              &copy; <span id="current-year"></span> Jayson Orense, All Rights
+              Reserved.
+            </h4>
+          </div>
+        </div>
+        <div
+          class="image-section"
+          data-aos="fade-up"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/123456.jpg"
+            alt=""
+            use
+            ondragstart="return false"
+            for
+            dragging
+            and
+            onselectstart="return false"
+            for
+            selecting
+          />
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="text/javascript">
+      var date = new Date();
+      var year = date.getFullYear();
+      document.getElementById("current-year").innerHTML = year;
+    </script>
+  </body>
+</html>
